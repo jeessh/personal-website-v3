@@ -11,12 +11,15 @@ const Sidebar = () => {
         <div className='sideIconContainer'>
             <img className='sideIcon' src={home}/>
         </div>
+        <div className='sideLine'/>
         <div className='sideIconContainer'>
             <img className='sideIcon' src={experience}/>
         </div>
+        <div className='sideLine'/>
         <div className='sideIconContainer'>
             <img className='sideIcon' src={contact}/>
         </div>
+        <div className='sideLine'/>
         <div className='sideIconContainer'>
             <img className='sideIcon' src={user}/>   
         </div>
