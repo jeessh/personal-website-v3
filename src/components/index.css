@@ -27,7 +27,7 @@
     transition: 0.1s ease-out;
 }
 
-.sideLine {
+.sideLine{
     position:relative;
     background-color: #fbfaf6;
     width: 4px;
