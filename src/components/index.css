@@ -1,0 +1,23 @@
+.sideContainer{
+    position:fixed;
+    top:50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.sideIconContainer{
+    padding: 7.5px;
+    margin: 15px;
+    margin-left: 25px;
+    border-radius:50%;
+    border: 1.5px solid #FBFAF6;
+}
+
+.sideIcon {
+    height: 2.4em;
+    width: 2.5em;
+}
+.sideIconContainer:hover{
+    cursor:pointer
+}
