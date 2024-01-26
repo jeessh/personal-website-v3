@@ -22,7 +22,6 @@ const RandomActivity = () => {
     let rand = Math.floor(Math.random() * activity.length);
     let used = [];
     const [randActivity, setRandActivity] = useState(activity[rand]);
-    const [activityShow, setactivityShow] = useState(true);
 
 
     const handleClick = () => {
