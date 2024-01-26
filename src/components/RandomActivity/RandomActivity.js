@@ -15,36 +15,48 @@ const RandomActivity = () => {
     "testing new tools 🛠️",
     "learning Docker 🐳",
     "learning Javascript 📜",
-    "learning React ⚛️",
     "updating my resume 📄",
     "exploring the city 🌆",
     "doing backflips 🤸‍♂️",];
 
     let rand = Math.floor(Math.random() * activity.length);
+    let used = [];
     const [randActivity, setRandActivity] = useState(activity[rand]);
     const [activityShow, setactivityShow] = useState(true);
 
+
     const handleClick = () => {
-        document.getElementById("activity").classList.add("activityHide");
+            document.getElementById("activity").classList.add("activityHide");
+            document.getElementById("blocker").classList.add("activityBlock");
+
         setTimeout(() => {
             let rand = randActivity;
-            while(randActivity == rand){
+            while(randActivity === rand && !used.includes(rand)){
                 rand = Math.floor(Math.random() * activity.length);
+                used.push(rand);
+            }
+            if (used.length === activity.length){
+                console.log(used.length);
+                used = [];
             }
             setRandActivity(activity[rand]);
-            console.log(activityShow)
-        }, 1000);
+        }, 500);
         setTimeout(() => {
             document.getElementById("activity").classList.remove("activityHide");
-        }, 2000);
-    }
+        }, 700);
+        setTimeout(() => {
+            document.getElementById("blocker").classList.remove("activityBlock");
+        }, 1000);
+        }
+
   return (
-    <>
-            <div id="activity" className='activity' onClick={handleClick}>
+        <div>
+        <div id="blocker"/>
+            <div id="activity" className='activity'
+            onClick={handleClick} >
                 I'm probably {randActivity}
             </div>
-    </>
+        </div>
   )
 }
-
 export default RandomActivity
