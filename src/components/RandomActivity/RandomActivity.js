@@ -36,7 +36,6 @@ const RandomActivity = () => {
                 used.push(rand);
             }
             if (used.length === activity.length){
-                console.log(used.length);
                 used = [];
             }
             setRandActivity(activity[rand]);
