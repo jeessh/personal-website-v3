@@ -1,11 +1,13 @@
 
 .activity {
+    cursor: pointer;
     position: relative;
     background-color: rgb(55, 53, 53);
     color: #fbfaf6;
     user-select: none;
     font: 1.5vw 'Roboto Mono', monospace;
     padding: 10px;
+    width: 34vw;
     border: 2px solid #fbfaf6;
     opacity: 1;
 }
@@ -34,6 +36,6 @@
     position:absolute;
     content: '';
     width: 40%;
-    height: 50%;
+    height: 20%;
     z-index: 5;
 }

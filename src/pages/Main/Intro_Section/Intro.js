@@ -15,7 +15,7 @@ const Intro = () => {
                 <div className='introText'>
                     <RandomActivity/>
                     <h1 className='introTitle'>Hey, I'm Jesse!</h1>
-                    <h2 className='introSubtitle'>I'm a dev guy yuh yuh help me</h2>
+                    <h2 className='introSubtitle'>I'm a dev guy yuh yuh help me pls im struggling</h2>
                     <h2 className='introSubtitle'>UW CS '27</h2>
                 </div>
             </div>

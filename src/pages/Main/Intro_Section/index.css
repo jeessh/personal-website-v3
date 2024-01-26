@@ -19,8 +19,9 @@
 }
 /* add media stuff to 768px width */
 .introText{
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: -5%;
+    width: 37.5vw;
     color: #fbfaf6;
     font-family: 'Roboto Mono', monospace;
     text-align: left;
@@ -47,6 +48,7 @@
         align-items: baseline;
         margin-left: 0;
         padding: 10px;
+        flex-direction: column-reverse;
     }
     .introContainer {
         flex-direction: column;
@@ -54,14 +56,15 @@
     }
     .introText{
         margin-top: 10px;
+        width: 70vw;
     }
     .introTitle{
-        font-size: 9vw;
+        font-size: 7.5vw;
     }
     .introSubtitle{
-        font-size: 4.5vw;
+        font-size: 3.75vw;
     }
     .introContacts {
-        left: 20px;
+        left: 30px;
     }
 }
