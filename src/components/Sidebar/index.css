@@ -9,6 +9,7 @@
 }
 
 .sideIconContainer{
+    display: block;
     padding: 7.5px;
     margin: 15px;
     margin-top:0;
