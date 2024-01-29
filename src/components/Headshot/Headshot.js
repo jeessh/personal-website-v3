@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import headshot from '../../images/headshot.jpeg';
+import headshot from '../../images/headshot.jpg';
 
 const Headshot = () => {
     return (

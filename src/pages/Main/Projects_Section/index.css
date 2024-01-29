@@ -1,0 +1,10 @@
+.projects {
+    padding-top: 15%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.viewMore {
+    color: white
+}
