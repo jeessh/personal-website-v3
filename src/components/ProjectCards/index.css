@@ -1,0 +1,15 @@
+.projectContainer {
+  background-color: aquamarine;
+  padding: 10px;
+  position: relative;
+}
+
+.projectTitle {
+  color: white;
+}
+
+.projectImage {
+  width: 12vw;
+  height: 8vw;
+  object-fit: cover;
+}

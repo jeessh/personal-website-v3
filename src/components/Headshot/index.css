@@ -1,25 +1,24 @@
 .headshotContainer {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vw;
-    width: 30vw;
-    background-color: rgb(78, 65, 85);
-
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vw;
+  width: 30vw;
+  background-color: rgb(78, 65, 85);
 }
 
 .headshot {
-    position: absolute;
-    height: 90%;
-    width: 90%;
-    object-fit: cover;
-    border: 5px solid #fbfaf680;
+  position: absolute;
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+  border: 5px solid #fbfaf680;
 }
 
-@media screen and (max-width: 768px){
-    .headshotContainer {
-        height: 50vw;
-        width: 50vw;
-    }
+@media screen and (max-width: 768px) {
+  .headshotContainer {
+    height: 50vw;
+    width: 50vw;
+  }
 }

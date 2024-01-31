@@ -1,67 +1,73 @@
 .intro {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-    margin-left: 10%;
-    padding-top: 15%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: 10%;
+  padding-top: 10%;
 }
 
 .introContainer {
-    position: relative;
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 /* add media stuff to 768px width */
-.introText{
-    margin-left: 40px;
-    margin-top: -5%;
-    width: 37.5vw;
-    color: #fbfaf6;
-    font-family: 'Roboto Mono', monospace;
-    text-align: left;
+.introText {
+  margin-left: 40px;
+  margin-top: -5%;
+  width: 37.5vw;
+  color: #fbfaf6;
+  font-family: "Roboto Mono", monospace;
+  text-align: left;
 }
 
-.introTitle{
-    font-size: 4vw;
-    font-weight: 700;
-    margin-bottom: 0;
-    margin-top: 25px;
+.introTitle {
+  font-size: 4vw;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 25px;
 }
 
-.introSubtitle{
-    font-size: 2vw;
-    font-weight: 400;
+.introSubtitle {
+  font-size: 2vw;
+  font-weight: 400;
 }
 
 .introContacts {
-    position: relative;
+  position: relative;
+}
+.introDivider {
+  margin-top: 25px;
+  background-color: #fbfaf6;
+  width: 70%;
+  height: 4px;
 }
 
-@media screen and (max-width: 768px){
-    .intro {
-        align-items: baseline;
-        margin-left: 0;
-        padding: 10px;
-        flex-direction: column-reverse;
-    }
-    .introContainer {
-        flex-direction: column;
-        align-items: baseline;
-    }
-    .introText{
-        margin-top: 10px;
-        width: 70vw;
-    }
-    .introTitle{
-        font-size: 7.5vw;
-    }
-    .introSubtitle{
-        font-size: 3.75vw;
-    }
-    .introContacts {
-        left: 30px;
-    }
+@media screen and (max-width: 768px) {
+  .intro {
+    align-items: baseline;
+    margin-left: 0;
+    padding: 10px;
+    flex-direction: column-reverse;
+  }
+  .introContainer {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .introText {
+    margin-top: 10px;
+    width: 70vw;
+  }
+  .introTitle {
+    font-size: 7.5vw;
+  }
+  .introSubtitle {
+    font-size: 3.75vw;
+  }
+  .introContacts {
+    left: 30px;
+  }
 }

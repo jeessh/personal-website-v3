@@ -1,34 +1,31 @@
-
 .activity {
-    cursor: pointer;
-    position: relative;
-    background-color: rgb(55, 53, 53);
-    color: #fbfaf6;
-    user-select: none;
-    width: 34vw;
-    font: 1.45vw 'Roboto Mono', monospace;
-    padding: 10px;
-    border: 2px solid #fbfaf6;
-    opacity: 1;
-    white-space: nowrap;
-    overflow: hidden;
-    transition: 0.75s ease-in;
+  cursor: pointer;
+  position: relative;
+  color: #fbfaf6;
+  user-select: none;
+  width: 34vw;
+  font: 1.45vw "Roboto Mono", monospace;
+  padding: 10px;
+  border: 2px solid #fbfaf6;
+  opacity: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 0.75s ease-in;
 }
 
 .activityClicked {
-    cursor: pointer;
-    position: relative;
-    background-color: rgb(55, 53, 53);
-    color: #fbfaf6;
-    user-select: none;
-    font: 1.45vw 'Roboto Mono', monospace;
-    padding: 10px;
-    width: 27.5%;
-    border: 2px solid #fbfaf6;
-    opacity: 1;
-    white-space: nowrap;
-    overflow: hidden;
-    transition: 0.4s ease-out;
+  cursor: pointer;
+  position: relative;
+  color: #fbfaf6;
+  user-select: none;
+  font: 1.45vw "Roboto Mono", monospace;
+  padding: 10px;
+  width: 27.5%;
+  border: 2px solid #fbfaf6;
+  opacity: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 0.4s ease-out;
 }
 /* 
 .activity::before {
