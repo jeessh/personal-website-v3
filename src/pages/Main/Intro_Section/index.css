@@ -8,6 +8,10 @@
   padding-top: 10%;
 }
 
+.bigWrapper {
+  display: static;
+}
+
 .introContainer {
   position: relative;
   display: flex;
@@ -51,6 +55,9 @@
     align-items: baseline;
     margin-left: 0;
     padding: 10px;
+  }
+  .bigWrapper {
+    display: flex;
     flex-direction: column-reverse;
   }
   .introContainer {
