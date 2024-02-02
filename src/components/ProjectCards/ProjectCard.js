@@ -5,14 +5,14 @@ import temp from "../../images/headshot.jpg";
 
 const Project_H = forwardRef(function Project_H({ title }, ref) {
   return (
-    <wrapper className="projectContainer" ref={ref}>
+    <div className="projectContainer hidden" ref={ref}>
       <img className="projectImage" src={temp} />
       <div className="projectTextWrapper">
         <h1 className="projectTitle">{title}</h1>
         <h2>tools</h2>
         <p>description</p>
       </div>
-    </wrapper>
+    </div>
   );
 });
 

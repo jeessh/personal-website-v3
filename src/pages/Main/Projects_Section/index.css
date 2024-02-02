@@ -1,11 +1,13 @@
 .projects {
-  padding-top: 15%;
   align-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-  grid-gap: 1vw;
-  padding: 10%;
+  grid-gap: vw;
+  padding: 20%;
+  padding-top: 15%;
+  padding-bottom: 2.5%;
+
 }
 
 .viewMore {

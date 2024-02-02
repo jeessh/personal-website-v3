@@ -11,11 +11,13 @@
 .aboutText {
   padding-bottom: 10px;
   font: 1.5vw "Roboto Mono", monospace;
+  line-height: 1.8vw;
   color: #f5f5f5;
 }
 
 .aboutError {
   font: 1.5vw "Roboto Mono", monospace;
+  line-height: 1.8vw;
   color: rgba(220, 20, 60);
   transition: 1s ease-in-out;
   opacity: 0;

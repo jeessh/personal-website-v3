@@ -34,8 +34,8 @@ const Intro = () => {
 
   return (
     <section className="intro" id="intro_main">
-      <wrapper className="bigWrapper">
-        <wrapper className="introContainer">
+      <div className="bigWrapper">
+        <div className="introContainer">
           <Headshot />
           <div
             className="introText"
@@ -49,14 +49,14 @@ const Intro = () => {
             <h2 className="introSubtitle">Front-End Developer</h2>
             <h2 className="introSubtitle">UW CS &apos;27</h2>
           </div>
-        </wrapper>
-        <wrapper className="introContacts">
+        </div>
+        <div className="introContacts">
           <ContactIcon image={linkedin} url="https://www.linkedin.com/feed/" />
           <ContactIcon image={github} url="https://www.linkedin.com/feed/" />
           <ContactIcon image={spotify} url="https://www.linkedin.com/feed/" />
           <ContactIcon image={mail} url="https://www.linkedin.com/feed/" />
-        </wrapper>
-      </wrapper>
+        </div>
+      </div>
       <AboutMe />
     </section>
   );

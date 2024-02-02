@@ -22,9 +22,9 @@ const AboutMe = () => {
   }, 50);
 
   return (
-    <wrapper className="aboutContainer">
+    <div className="aboutContainer">
       <h2 className="aboutText">
-        I&apos;m currently a 2nd year Computer Science Major at the University
+        I&apos;m a 2nd year Computer Science Major at the University
         of Waterloo. <br />
         <br />
         When I&apos;m not busy being an&nbsp;	
@@ -32,13 +32,13 @@ const AboutMe = () => {
         binging Netflix, gym sessions, and tending to my Stardew farm.
       </h2>
       <h2 ref={errRef} className="aboutText">
-        However, what I cherish the <b>most</b>, is the feeling of finally triumphing
+        However, what I truly cherish the <b>most</b>, is finally triumphing
         over all the Error 300s, 400s, and 404s.
       </h2>
       <h2 ref={errMsgRef} className="aboutError">
         <b>Oops, still need to fix that one!</b>
       </h2>
-    </wrapper>
+    </div>
   );
 };
 

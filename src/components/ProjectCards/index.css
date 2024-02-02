@@ -1,8 +1,13 @@
 .projectContainer {
   position: relative;
-  background-color: rgb(34, 23, 54);
+  background-color: rgb(34, 30, 40);
+  box-shadow: 0 2.5px 8px rgba(0, 0, 0, 0.25);
   padding: 10px;
   border-radius: 5px;
+}
+
+.projectContainer:hover {
+  background-color: rgb(51, 32, 61);
 }
 
 .projectTextWrapper {
@@ -20,5 +25,18 @@
   height: 18vw;
   padding: 5px;
   object-fit: cover;
-  opacity: 0.25;
+  opacity: 0;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 0.5s;
+}
+
+.projReveal {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
 }
