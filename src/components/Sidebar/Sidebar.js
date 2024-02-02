@@ -14,7 +14,6 @@ const Sidebar = () => {
       <div className="sideIconContainer" onClick={scrollToTop}>
         <img className="sideIcon" src={home} alt="home" />
       </div>
-      <div className="sideLine" />
       <Link
         className="sideIconContainer"
         to="projects_main"
@@ -25,7 +24,6 @@ const Sidebar = () => {
       >
         <img className="sideIcon" src={experience} alt="experience" />
       </Link>
-      <div className="sideLine" />
       <div className="sideIconContainer">
         <img className="sideIcon" src={user} alt="personal" />
       </div>
