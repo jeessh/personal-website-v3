@@ -5,7 +5,7 @@
   align-items: center;
   height: 30vw;
   width: 30vw;
-  background-color: rgb(78, 65, 85);
+  border-radius: 5px;
 }
 
 .headshot {
@@ -13,7 +13,9 @@
   height: 90%;
   width: 90%;
   object-fit: cover;
-  border: 5px solid #fbfaf680;
+  border: 5px solid #362f41;
+  border-radius: 2.5px;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.286);
 }
 
 @media screen and (max-width: 768px) {

@@ -8,6 +8,8 @@
 
 .projectContainer:hover {
   background-color: rgb(51, 32, 61);
+  cursor: pointer;
+  transform: scale(1.025);
 }
 
 .projectTextWrapper {
