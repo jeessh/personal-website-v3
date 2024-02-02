@@ -1,7 +1,13 @@
 .projectContainer {
-  background-color: aquamarine;
-  padding: 10px;
   position: relative;
+  background-color: rgb(34, 23, 54);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.projectTextWrapper {
+  position: absolute;
+  top: 0;
 }
 
 .projectTitle {
@@ -9,7 +15,10 @@
 }
 
 .projectImage {
-  width: 12vw;
-  height: 8vw;
+  position: relative;
+  width: 14vw;
+  height: 18vw;
+  padding: 5px;
   object-fit: cover;
+  opacity: 0.25;
 }

@@ -31,7 +31,6 @@ const RandomActivity = () => {
   }, []);
 
   const handleClick = () => {
-    console.log(clickRef.current.disabled);
 
     if (!clickRef.current.disabled) {
       clickRef.current.disabled = true;

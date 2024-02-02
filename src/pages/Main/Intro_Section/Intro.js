@@ -30,7 +30,6 @@ const Intro = () => {
     } else {
       setIsMobile(false);
     }
-    console.log(isMobile);
   }, []);
 
   return (

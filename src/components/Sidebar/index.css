@@ -21,8 +21,8 @@
 }
 
 .sideIcon {
-  height: 2.4em;
-  width: 2.5em;
+  height: 2.4vw;
+  width: 2.5vw;
 }
 @media screen and (max-width: 768px) {
   .sideContainer {

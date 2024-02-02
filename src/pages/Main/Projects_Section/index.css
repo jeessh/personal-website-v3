@@ -1,23 +1,14 @@
 .projects {
   padding-top: 15%;
   align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.projectsTitleWrapper {
-  position: relative;
-  height: 80vh;
-  margin-top: -25vh;
-}
-
-.projectsTitle {
-  background-color: red;
-  margin-bottom: 0;
-  color: #fbfaf6;
-  font: 6vw "Roboto Mono", monospace;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 1vw;
+  padding: 10%;
 }
 
 .viewMore {
   color: white;
 }
+
