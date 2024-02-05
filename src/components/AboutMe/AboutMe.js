@@ -7,7 +7,7 @@ const AboutMe = () => {
   const errTextRef = useRef();
 
   setTimeout(() => {
-    if(!errRef.current) return;
+    if (!errRef.current) return;
     const rect = errRef.current.getBoundingClientRect();
     if (rect.top - window.innerHeight / 2 < 0) {
       // element is past halfway point
@@ -24,12 +24,12 @@ const AboutMe = () => {
   return (
     <div className="aboutContainer">
       <h2 className="aboutText">
-        I&apos;m a 2nd year Computer Science Major at the University
-        of Waterloo. <br />
+        I&apos;m a 2nd year Computer Science Major at the University of
+        Waterloo. <br />
         <br />
-        When I&apos;m not busy being an&nbsp;	
-        <span ref={errTextRef}>academic weapon</span>, I enjoy
-        binging Netflix, gym sessions, and tending to my Stardew farm.
+        When I&apos;m not busy being an&nbsp;
+        <span ref={errTextRef}>academic weapon</span>, I enjoy binging Netflix,
+        gym sessions, and tending to my Stardew farm.
       </h2>
       <h2 ref={errRef} className="aboutText">
         However, what I truly cherish the <b>most</b>, is finally triumphing

@@ -40,7 +40,7 @@ const Intro = () => {
           <div
             className="introText"
             style={
-              !(isMobile) ? { transform: `translateY(${offset * 0.015}rem)` } : {}
+              !isMobile ? { transform: `translateY(${offset * 0.015}rem)` } : {}
             }
           >
             <RandomActivity />
