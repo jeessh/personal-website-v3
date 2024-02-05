@@ -13,25 +13,21 @@ const Projects = () => {
     const rect = projRef.current.getBoundingClientRect();
     // const temp = rect.top - window.innerHeight / 2.5;
     if (rect.top - window.innerHeight / 2.5 < 0 && rect.bottom - 100 > 0) {
-
-        proj1.current.classList.add("projReveal");
-        setTimeout(() => {
-          proj2.current.classList.add("projReveal");
-
-        }, 100);
-        setTimeout(() => {
-          proj3.current.classList.add("projReveal");
-        }, 200);
+      proj1.current.classList.add("projReveal");
+      setTimeout(() => {
+        proj2.current.classList.add("projReveal");
+      }, 100);
+      setTimeout(() => {
+        proj3.current.classList.add("projReveal");
+      }, 200);
     } else {
-        proj1.current.classList.remove("projReveal");
-        setTimeout(() => {
-          proj2.current.classList.remove("projReveal");
-
-        }, 100);
-        setTimeout(() => {
-          proj3.current.classList.remove("projReveal");
-        }, 200);
-      
+      proj1.current.classList.remove("projReveal");
+      setTimeout(() => {
+        proj2.current.classList.remove("projReveal");
+      }, 100);
+      setTimeout(() => {
+        proj3.current.classList.remove("projReveal");
+      }, 200);
     }
   };
 

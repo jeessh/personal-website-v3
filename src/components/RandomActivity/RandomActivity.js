@@ -31,7 +31,6 @@ const RandomActivity = () => {
   }, []);
 
   const handleClick = () => {
-
     if (!clickRef.current.disabled) {
       clickRef.current.disabled = true;
       clickRef.current.classList.add("activityClicked");
