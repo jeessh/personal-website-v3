@@ -16,7 +16,6 @@ const RandomActivity = () => {
     "testing new tools 🛠️",
     "learning Docker 🐳",
     "learning Javascript 📜",
-    "updating my resume 📄",
     "exploring the city 🌆",
     "doing backflips 🤸‍♂️"
   ];
