@@ -3,7 +3,7 @@ import "./index.css";
 
 const RandomActivity = () => {
   let activity = [
-    "listening to Spotify 🎧",
+    "jamming to Spotify 🎧",
     "hitting up the gym 🏋️‍♂️",
     "grinding Leetcode 📚",
     "cooking up a storm 🍳",
