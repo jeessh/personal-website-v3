@@ -3,11 +3,11 @@ import "./index.css";
 import home from "../../images/home_icon.png";
 import experience from "../../images/exp_icon.png";
 import user from "../../images/user_icon.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link, animateScroll } from "react-scroll";
 
 const Sidebar = () => {
   const scrollToTop = () => {
-    scroll.scrollToTop();
+    animateScroll.scrollToTop();
   };
   return (
     <nav className="sideContainer">
