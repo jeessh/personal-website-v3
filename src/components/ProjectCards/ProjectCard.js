@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import "./index.css";
 import temp from "../../images/headshot.jpg";
 
-const Project_H = forwardRef(function Project_H({ title }, ref) {
+const Project_H = forwardRef(function Project_H({ title }) {
   return (
-    <div className="projectContainer hidden" ref={ref}>
+    <div className="projectContainer">
       <img className="projectImage" src={temp} />
       <div className="projectTextWrapper">
         <h1 className="projectTitle">{title}</h1>
