@@ -1,8 +1,8 @@
 import React from "react";
-import Sidebar from "../../components/Sidebar/Sidebar";
+import Sidebar from "../../components/Sidebar";
 import "./Main.css";
-import Intro from "./Intro_Section/Intro";
-import Projects from "./Projects_Section/Projects";
+import Intro from "./Intro_Section";
+import Projects from "./Projects_Section";
 
 const Main = () => {
   return (

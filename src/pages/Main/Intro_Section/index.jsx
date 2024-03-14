@@ -1,14 +1,14 @@
 import { React, useState, useEffect } from "react";
-import Headshot from "../../../components/Headshot/Headshot";
-import ContactIcon from "../../../components/ContactIcon/ContactIcon";
+import Headshot from "../../../components/Headshot";
+import ContactIcon from "../../../components/ContactIcon";
 import "./Intro.css";
 
 import linkedin from "../../../images/linkedinIcon2.png";
 import github from "../../../images/githubIcon2.png";
 import spotify from "../../../images/spotifyIcon2.png";
 import mail from "../../../images/mailIcon2.png";
-import RandomActivity from "../../../components/RandomActivity/RandomActivity";
-import AboutMe from "../../../components/AboutMe/AboutMe";
+import RandomActivity from "../../../components/RandomActivity";
+import AboutMe from "../../../components/AboutMe";
 
 const Intro = () => {
   const [isMobile, setIsMobile] = useState(false);
