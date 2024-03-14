@@ -1,6 +1,6 @@
 import { React } from "react";
-import Project_H from "../../../components/ProjectCards/ProjectCard";
-import "./index.css";
+import Project_H from "../../../components/ProjectCard";
+import "./Projects.css";
 
 const Projects = () => {
 

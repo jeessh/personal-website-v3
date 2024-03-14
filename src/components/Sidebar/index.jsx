@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./Sidebar.css";
 import home from "../../images/home_icon.png";
 import experience from "../../images/exp_icon.png";
 import user from "../../images/user_icon.png";

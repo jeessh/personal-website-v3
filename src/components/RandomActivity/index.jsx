@@ -1,5 +1,5 @@
 import { React, useState, useRef, useEffect } from "react";
-import "./index.css";
+import "./RandomActivity.css";
 
 const RandomActivity = () => {
   let activity = [
