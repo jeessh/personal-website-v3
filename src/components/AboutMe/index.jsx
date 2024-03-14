@@ -1,5 +1,5 @@
 import { React, useRef } from "react";
-import "./index.css";
+import "./AboutMe.css";
 
 const AboutMe = () => {
   const errRef = useRef();

@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from "react";
 import Headshot from "../../../components/Headshot/Headshot";
 import ContactIcon from "../../../components/ContactIcon/ContactIcon";
-import "./index.css";
+import "./Intro.css";
 
 import linkedin from "../../../images/linkedinIcon2.png";
 import github from "../../../images/githubIcon2.png";

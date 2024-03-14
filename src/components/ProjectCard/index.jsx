@@ -1,6 +1,6 @@
 import { React, forwardRef } from "react";
 import PropTypes from "prop-types";
-import "./index.css";
+import "./ProjectCard.css";
 import temp from "../../images/headshot.jpg";
 
 const Project_H = forwardRef(function Project_H({ title }) {
