@@ -1,9 +1,9 @@
-import { React, forwardRef } from "react";
+import { React } from "react";
 import PropTypes from "prop-types";
 import "./ProjectCard.css";
 import temp from "../../images/headshot.jpg";
 
-const Project_H = forwardRef(function Project_H({ title }) {
+const Project = ({ title }) => {
   return (
     <div className="projectContainer">
       <img className="projectImage" src={temp} />
@@ -14,11 +14,11 @@ const Project_H = forwardRef(function Project_H({ title }) {
       </div>
     </div>
   );
-});
+};
 
-Project_H.propTypes = {
+Project.propTypes = {
   title: PropTypes.string.isRequired,
   theRef: PropTypes.object
 };
 
-export default Project_H;
+export default Project;
