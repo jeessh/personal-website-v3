@@ -10,7 +10,6 @@ const Project = ({ title }) => {
       <div className="projectTextWrapper">
         <h1 className="projectTitle">{title}</h1>
         <h2>tools</h2>
-        <p>description</p>
       </div>
     </div>
   );
