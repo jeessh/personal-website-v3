@@ -43,6 +43,7 @@
 
 .introContacts {
   position: relative;
+  left: 20px;
 }
 .introDivider {
   margin-top: 25px;
