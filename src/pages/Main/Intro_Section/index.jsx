@@ -3,10 +3,10 @@ import Headshot from "../../../components/Headshot";
 import ContactIcon from "../../../components/ContactIcon";
 import "./Intro.css";
 
-import linkedin from "../../../images/linkedinIcon2.png";
-import github from "../../../images/githubIcon2.png";
-import spotify from "../../../images/spotifyIcon2.png";
-import mail from "../../../images/mailIcon2.png";
+import linkedin from "../../../images/linkedin.png";
+import github from "../../../images/github.png";
+import spotify from "../../../images/spotify.png";
+import mail from "../../../images/email.png";
 import RandomActivity from "../../../components/RandomActivity";
 import AboutMe from "../../../components/AboutMe";
 
@@ -51,7 +51,7 @@ const Intro = () => {
           </div>
         </div>
         <div className="introContacts">
-          <ContactIcon image={linkedin} url="https://www.linkedin.com/feed/" />
+          <ContactIcon image={linkedin} url="https://www.linkedin.com/in/huang-jesse/" />
           <ContactIcon image={github} url="https://www.linkedin.com/feed/" />
           <ContactIcon image={spotify} url="https://www.linkedin.com/feed/" />
           <ContactIcon image={mail} url="https://www.linkedin.com/feed/" />
