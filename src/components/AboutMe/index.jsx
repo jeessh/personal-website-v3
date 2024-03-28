@@ -27,9 +27,8 @@ const AboutMe = () => {
         I&apos;m a 2nd year Computer Science Major at the University of
         Waterloo. <br />
         <br />
-        When I&apos;m not busy being an&nbsp;
-        <span ref={errTextRef}>academic weapon</span>, I enjoy binging Netflix,
-        gym sessions, and tending to my Stardew farm.
+        If I&apos;m ever able to find time between work sessions, I enjoy binging Netflix,<br></br>
+        hitting the gym, and <span ref={errTextRef}>getting 8 hours of sleep</span>.
       </h2>
       <h2 ref={errRef} className="aboutText">
         However, what I truly cherish the <b>most</b>, is finally triumphing

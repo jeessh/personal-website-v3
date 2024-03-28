@@ -52,8 +52,8 @@ const Intro = () => {
         </div>
         <div className="introContacts">
           <ContactIcon image={linkedin} url="https://www.linkedin.com/in/huang-jesse/" />
-          <ContactIcon image={github} url="https://www.linkedin.com/feed/" />
-          <ContactIcon image={spotify} url="https://www.linkedin.com/feed/" />
+          <ContactIcon image={github} url="https://github.com/jeessh" />
+          <ContactIcon image={spotify} url="https://open.spotify.com/user/kanaphos" />
           <ContactIcon image={mail} url="https://www.linkedin.com/feed/" />
         </div>
       </div>
