@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "./ProjectCard.css";
 import temp from "../../images/headshot.jpg";
 
-const Project = ({ title }) => {
+const Project = ({ title,  }) => {
   return (
     <div className="projectContainer">
       <img className="projectImage" src={temp} />
