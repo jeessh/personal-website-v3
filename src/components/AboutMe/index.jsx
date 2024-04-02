@@ -28,7 +28,7 @@ const AboutMe = () => {
         Waterloo. <br />
         <br />
         If I&apos;m ever able to find time between work sessions, I enjoy binging Netflix,<br></br>
-        hitting the gym, and <span ref={errTextRef}>getting 8 hours of sleep</span>.
+        hitting the gym, and <span ref={errTextRef}>getting my 8 hours of sleep</span>.
       </h2>
       <h2 ref={errRef} className="aboutText">
         However, what I truly cherish the <b>most</b>, is finally triumphing
