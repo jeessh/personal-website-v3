@@ -20,10 +20,10 @@ const Sidebar = () => {
         spy={true}
         exact="true"
       >
-        <h3>Projects</h3>
+        <img className="sideIcon" src={user} alt="personal" />
       </Link>
       <div className="sideIconContainer">
-        <h3>Contact</h3>
+      <img className="sideIcon" src={user} alt="personal" />
       </div>
     </nav>
   );
