@@ -9,8 +9,10 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="projectsCards">
       <Project title="Wiz Curriculum Generator"/>
-      <Project title="Art.IO???"/>
+      <Project title="WaterWho"/>
       <Project title="troki???"/>
+      <Project title="artio???!?!?!?!?"/>
+
       </div>
       
       <div>
