@@ -10,7 +10,6 @@ const Main = () => {
       <Sidebar />
       <Intro />
       <Projects />
-      <div style={{ height: "150vh" }}>temp</div>
     </main>
   );
 };

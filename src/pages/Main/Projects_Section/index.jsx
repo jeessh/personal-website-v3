@@ -6,7 +6,6 @@ const Projects = () => {
 
   return (
     <section className="projects" id="projects_main">
-      <h1>Projects</h1>
       <div className="projectsCards">
       <Project title="Wiz Curriculum Generator"/>
       <Project title="WaterWho"/>
@@ -16,7 +15,7 @@ const Projects = () => {
       </div>
       
       <div>
-        <h2 className="viewMore">View More Projects</h2>
+        <h2 className="viewMore">View More</h2>
       </div>
     </section>
   );

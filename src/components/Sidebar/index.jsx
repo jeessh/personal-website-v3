@@ -20,7 +20,7 @@ const Sidebar = () => {
         spy={true}
         exact="true"
       >
-        <h3>Projects</h3>
+        <h3>Experiences</h3>
       </Link>
       <div className="sideIconContainer">
         <h3>Contact</h3>
