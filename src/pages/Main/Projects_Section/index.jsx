@@ -10,7 +10,6 @@ const Projects = () => {
       <Project title="Wiz Curriculum Generator"/>
       <Project title="WaterWho"/>
       <Project title="troki???"/>
-      <Project title="artio???!?!?!?!?"/>
 
       </div>
       
